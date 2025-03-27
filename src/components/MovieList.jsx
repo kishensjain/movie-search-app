@@ -9,7 +9,7 @@ const MovieList = ({searchResults, hasSearched}) => {
           <Link to = {`/movie/${movie.id}`} key={movie.id}>
           <div
             key={movie.id}
-            className="bg-gray-800 p-4 rounded-lg shadow-lg hover:scale-105 transition-transform">
+            className="bg-gray-800 p-4 rounded-lg shadow-lg hover:scale-105 transition-transform flex flex-col h-[400px]">
               <img
                 src={movie.poster_path 
                   ? `https://image.tmdb.org/t/p/w500${movie.poster_path}`

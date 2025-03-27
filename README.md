@@ -1,12 +1,47 @@
-# React + Vite
+# 🎬 Movie Search App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and responsive web application that allows users to search for movies using **The Movie Database (TMDB) API**. Users can view movie details, browse search results with pagination, and access trending movies.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- 🔍 **Movie Search**: Search for any movie using TMDB API.
+- 📜 **Movie Details Page**: View detailed information about a selected movie.
+- 📈 **Trending Movies**: Browse popular movies.
+- 📌 **Pagination**: Load more search results with a "Load More" button.
+- 🖼️ **Responsive Design**: Built with Tailwind CSS for a clean UI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Technologies Used
+- **React.js** ⚛️
+- **Tailwind CSS** 🎨
+- **TMDB API** 🎞️
+- **React Router** 🌐
 
-## Expanding the ESLint configuration
+## 🔧 Setup & Installation
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clone the Repository**
+   ```sh
+   git clone https://github.com/kishensjain/movie-search-app.git
+   cd movie-search-app
+   ```
+
+2. **Install Dependencies**
+   ```sh
+   npm install
+   ```
+
+3. **Create a `.env` file in the root folder and add your TMDB API Key**
+   ```env
+   VITE_TMDB_API_KEY=your_tmdb_api_key_here
+   ```
+
+4. **Run the Development Server**
+   ```sh
+   npm run dev
+   ```
+
+5. **Open in Browser**
+   ```
+   http://localhost:5173/
+   ```
+
+## 📢 Connect With Me
+If you like this project, connect with me on **[LinkedIn](https://www.linkedin.com/in/kishen-s-jain-1ab453335/)** and let's collaborate! 🚀
